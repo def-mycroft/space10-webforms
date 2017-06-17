@@ -1,8 +1,10 @@
-# Conversational Form Experimenting 
+# Conversational Form Experimentation
 
 I just cloned this repo and will be messing around with it. 
 
 [here](https://github.com/space10-community/conversational-form) is the actual repo from space10.
+
+Below is the readme from space10.
 
 # Conversational Form
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/space10-community/conversational-form/blob/master/LICENSE.md)
