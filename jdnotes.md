@@ -6,6 +6,12 @@ Some of the files weren't available at urls that scripts were referencing.
 Obvious answer is to try to run them locally, but there is a security issue
 which browsers have that prevents referencing local js files. 
 
+Here is the error I was getting:
+
+```
+from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.
+```
+
 In chrome, I disabled this by running command: 
 
 ```
