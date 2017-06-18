@@ -1,4 +1,5 @@
-
+*My notes while reverse engineering space10's conversational webform. See 
+[this link][flowchart] in addition to these notes.*
 # Working around issues with server files
 
 ## General Overview of Issue
@@ -30,4 +31,5 @@ functions to repair issues.
 
 * in conversational-form.min.js, disabled function on L193, added display="none"
 
+[flowchart]: https://www.lucidchart.com/documents/edit/30d4c2e3-4d33-4b61-b608-fbc660333e71#
 [no access control]: https://stackoverflow.com/questions/20035101/no-access-control-allow-origin-header-is-present-on-the-requested-resource
