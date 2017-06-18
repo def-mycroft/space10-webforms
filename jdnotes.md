@@ -33,7 +33,7 @@ functions to repair issues.
 
 ## Misc Comments 
 
-* in conversational-form.min.js, disabled function on L193, added display="none"
+* conversational-form.min.js, added https to front of cloudfare link on ln 190
 
 [flowchart]: https://www.lucidchart.com/documents/view/30d4c2e3-4d33-4b61-b608-fbc660333e71
 [no access control]: https://stackoverflow.com/questions/20035101/no-access-control-allow-origin-header-is-present-on-the-requested-resource
