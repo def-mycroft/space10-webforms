@@ -1,6 +1,8 @@
 
 # Working around issues with server files
 
+## General Overview of Issue
+
 Some of the files weren't available at urls that scripts were referencing.
 
 Obvious answer is to try to run them locally, but there is a security issue
@@ -23,5 +25,9 @@ development purposes
 
 It is just a matter of running the page, looking at errors and using search
 functions to repair issues.
+
+## Misc Comments 
+
+* in conversational-form.min.js, disabled function on L193, added display="none"
 
 [no access control]: https://stackoverflow.com/questions/20035101/no-access-control-allow-origin-header-is-present-on-the-requested-resource

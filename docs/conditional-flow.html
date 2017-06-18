@@ -72,10 +72,9 @@
 			<section role="form">
 				<div class="form-outer">
 
-					<!-- Conversational Form will auto-run because of attribute "cf-form" -->
 					<form id="form">
 
-						<fieldset cf-questions="Ready to try a conditional flow?">
+						<fieldset cf-questions="Here is the initial question.">
 							<label for="intro-yes">Yes
 								<input type="radio" name="cfc-intro" id="intro-yes" value="yes">
 							</label>
@@ -93,7 +92,7 @@
 							type="text"
 							id="gr8"
 							name="cfc-step1"
-							cf-questions="Conditional flow pre, please write, <strong>gr8</strong> to continue, if you write something else than <strong>gr8</strong> the will you will skip elements."
+							cf-questions="Welcome to the yes path. Conditional flow pre, please write, <strong>gr8</strong> to continue, if you write something else than <strong>gr8</strong> the will you will skip elements."
 							cf-conditional-cfc-intro="yes" />
 
 						<fieldset cf-questions="<strong>{gr8}!</strong> Please choose a path.">
